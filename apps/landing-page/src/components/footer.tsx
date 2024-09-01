@@ -93,6 +93,44 @@ export default observer(() => {
 					>
 						{String(t('footer.pitchdeck'))}
 					</Link>
+					<Stack direction={'column'} spacing={1}>
+						<Link
+							px={2}
+							py={1}
+							rounded={'md'}
+							href="https://urbanisierung.dev"
+							_hover={{
+								textDecoration: 'none',
+								bg: useColorModeValue('gray.200', 'gray.700'),
+							}}
+						>
+							urbanisierung.dev
+						</Link>
+						<Link
+							px={2}
+							py={1}
+							rounded={'md'}
+							href="https://boringdevtools.com"
+							_hover={{
+								textDecoration: 'none',
+								bg: useColorModeValue('gray.200', 'gray.700'),
+							}}
+						>
+							boringdevtools.com
+						</Link>
+						<Link
+							px={2}
+							py={1}
+							rounded={'md'}
+							href="https://weeklyfoo.com"
+							_hover={{
+								textDecoration: 'none',
+								bg: useColorModeValue('gray.200', 'gray.700'),
+							}}
+						>
+							weeklyfoo.com
+						</Link>
+					</Stack>
 					<Stack direction={'row'} spacing={6}>
 						<SocialButton
 							label={'Twitter'}
